@@ -1,4 +1,4 @@
-### PCAP Analyzer
+### Network Packet Analyzer
 Project from Computer Networks course
 
 ##### Overview of Functionality
