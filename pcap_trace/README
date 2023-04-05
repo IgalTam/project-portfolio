@@ -1,3 +1,0 @@
-Igal Tamarkin
-Special Instructions: None
-Comments: TCP pseudoheader is now assembled correctly, all provided test cases work. The program should also handle unknown PDUs.
