@@ -10,7 +10,8 @@ reading or writing until the owner reads all stored data, in which case the devi
 The device driver is designed to operate in a MINIX 3.1.8 operating system. Specifically, the driver was tested using a virtual machine created with Oracle VirtualBox 7.0.6 and a MINIX 3.1.8 image file. Additionally, the virtual machine should contain either ```cc``` or ```gcc```. After installation, create the following files within the filesystem:<br />
 1) Create a file ```/usr/src/include/sys/ioc_secret.h```. Populate this file with the lines ```#include <minix/ioctl.h>```and ```#define SSGRANT	_IOW(‘K’, 1, uid_t)```. Copy this file to ```/usr/include/sys/ioc_secret.h```.
 2) In ```/etc/system.conf```, include the line ```service secretkeeper {};``` within the main scope of the file, similar to the other listed services.
-3) In ```/usr/src/include/sys/ioctl.h```, add the include line ```#include <sys/ioc_secret.h>``` with the other includes at the top of the file. 
+3) In ```/usr/src/include/sys/ioctl.h```, add the include line ```#include <sys/ioc_secret.h>``` with the other includes at the top of the file.
+4) Download this source directory to ```/src/drivers/```.
 
 #### Usage
 Building: ```$ make```.<br />

@@ -7,8 +7,8 @@ is an assembler that converts assembly instructions into a binary file; ```lab3`
 pipelining operations and also reports the contents of the pipeline for each instruction execution. The final output of the emulator is a report of the input assembly program's
 runtime statistics, including CPI, total clock cycles operated on, and total instructions executed.
 
-#### Usage
+##### Requirements
 [WIP]
 
-##### Requirements
+#### Usage
 [WIP]

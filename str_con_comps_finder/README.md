@@ -8,11 +8,11 @@ Additionally, I wrote a test case creator to better test my program during devel
 each node in the graph to have at least one edge. <br />
 ```sort_component_list()``` and ```read_file()``` were provided as part of the assignment. 
 
+##### Requirements
+This program is intended to be used in an environment with the following version Python:<br />
+Python 3.11.1
+
 #### Usage
 (assuming Linux CLI)<br />
 Standard operation: ```python3 itamarki_lab2.py <input file>```<br />
 Test case creator: ```python3 it_test_writer.py <number of nodes>```<br />
-
-##### Requirements
-This program is intended to be used in an environment with the following version Python:<br />
-Python 3.11.1
