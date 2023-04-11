@@ -47,6 +47,7 @@ public class lab4 {
             System.out.print("mips> ");
         }
         System.out.println(input);
+        rdr.close();
     }
 
     public void shellMode(instr[] instrArr) {
@@ -62,6 +63,7 @@ public class lab4 {
                 execCmd(dataArr, instrArr);
             System.out.print("mips> ");
         }
+        rdr.close();
     }
 
     private String[] parseCmd(String stdin) {
