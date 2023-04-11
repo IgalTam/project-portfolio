@@ -11,10 +11,10 @@ See ```lab4_test1.asm```, ```lab4_test1.script```, and ```lab4_test1.output``` f
 
 ##### Requirements
 This program is capable of running in an environment with the following version of Java:<br />
-openjdk version "1.8.0_282"<br />
+```openjdk version "1.8.0_282"```<br />
 Other details:<br />
-OpenJDK Runtime Environment (build 1.8.0_282-b08)<br />
-OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)
+```OpenJDK Runtime Environment (build 1.8.0_282-b08)```<br />
+```OpenJDK 64-Bit Server VM (build 25.282-b08, mixed mode)```
 
 #### Usage
 Building: ```$ make lab4```<br />
