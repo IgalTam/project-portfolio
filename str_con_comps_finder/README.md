@@ -9,7 +9,7 @@ each node in the graph to have at least one edge. <br />
 ```sort_component_list()``` and ```read_file()``` were provided as part of the assignment. 
 
 ##### Requirements
-This program is intended to be used in an environment with the following version Python:<br />
+This program is intended to be used in an environment with the following version of Python:<br />
 ```Python 3.11.1```
 
 #### Usage
