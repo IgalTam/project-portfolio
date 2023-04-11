@@ -10,7 +10,7 @@ each node in the graph to have at least one edge. <br />
 
 ##### Requirements
 This program is intended to be used in an environment with the following version Python:<br />
-Python 3.11.1
+```Python 3.11.1```
 
 #### Usage
 (assuming Linux CLI)<br />
